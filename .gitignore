@@ -1,0 +1,6 @@
+cache
+siteroot/*.xml
+siteroot/*.html
+logs/
+_site/
+.*sw*

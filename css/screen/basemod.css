@@ -26,17 +26,17 @@
 
   /* (en) Marginal areas & page background */
   /* (de) Randbereiche & Seitenhintergrund */
-  body { background: #4d87c7 url("images/bg_blue.gif") repeat-x top left fixed; padding: 10px 0; }
+  body { background: #fff; margin: 0;}
 
   /* Layout Alignment | Layout-Ausrichtung */
-  .page_margins { margin: 0 auto; }
+  .page_margins { margin: 0; }
 
   /* Layout Properties | Layout-Eigenschaften */
   .page_margins { width: auto;  min-width: 740px; max-width: none; background: #fff; }
   .page { padding: 10px; }
   #nav { overflow:hidden; }
   #main { margin: 10px 0; background: #fff; }
-  #teaser { clear:both; padding: 0 20px; margin: 10px 0; }
+  #teaser { clear:both; padding: 0 20px; margin: 10px 0; width 80%; background: #F00;}
   #footer { padding: 10px 20px; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
 
   /* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */

@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>{{ page.title }}</title>
+<style type="text/css">
+body, body a { color: black; font-family:Sans,Georgia; }
+#topnav { background-color: black; color: white; line-height: 4em; }
+#topnav ul, #status, #content, #footer { margin: 0 auto; width: 50em; }
+#topnav a:hover { color: #800000; }
+#topnav a, #header a, #header, #topnav { color: white; text-decoration: none;  }
+#topnav li, #footer li { display: block; padding: 0 3em 0 0; float: left; list-style-type: none; }
+.clear { clear: both; }
+#topnav ul { padding: 0; }
+#topnav { }
+.homelink { font-size: 1.5em; }
+.signpost { font-size: 2.5em; }
+
+
+#main { margin-right: 21em; line-spacing: 2; }
+#main img { width: 100%; padding-bottom: 1em; }
+#header { background-color: #800000; margin-bottom: 2em; padding: 1em 0; }
+h1, h2, h3, h4, ul, dl { margin: 0 0 0 0; }
+#news { width: 17em; float: right; border-width: 0 0 0 1px; border-style: solid; border-color: #eee; padding: 0 0 0 2em; }
+#news a { color: #333; }
+#news p, #main p { margin: 0 0 1em 0; }
+
+.signpost { width: 30em; }
+#header ul { width: 60em; padding: 0; margin: 0; }
+#header li { width: 15em; list-style-type: none; font-size: smaller; float: left; }
+#header li em { display: block; font-size: larger; font-style: normal; font-weight: bold; }
+
+#footer { padding: 2em 0; }
+
+</style>
+</head>
+<body>
+<div id="topnav">
+<ul>
+<li><a href="/" class="homelink">{{page.title}}</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="#">Community</a></li>
+<li><a href="#">Download</a></li>
+<li><a href="#">Help</a></li>
+<li><a href="#">About</a></li>
+</ul>
+<br class="clear" />
+</div>
+<div id="header">
+<div id="status">
+<div class="signpost">
+GL 6.0 Status
+</div>
+<ul>
+	<li><em>Pkgs Complete:</em>
+		671 of 1800
+	</li>
+	<li><em>Last Complete:</em>
+		valgrind-3.5.0.18.gl6
+	</li>
+	<li><em>Latest Build:</em>
+		goose-server-6.0-20110917
+	</li>
+</ul>
+<br class="clear" />
+</div>
+</div>
+<div id="content">
+{{ content }}
+</div>
+<footer id="footer">
+<ul>
+<li><a href="#">{{page.title}}</a></li>
+<li><a href="#">Home</a></li>
+<li><a href="#">Community</a></li>
+<li><a href="#">Download</a></li>
+<li><a href="#">Help</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</footer>
+

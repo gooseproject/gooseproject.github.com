@@ -39,6 +39,10 @@
   #teaser { clear:both;
     padding: 0;
     width 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: 10%;
     background: maroon;
     color: #eee;
   }

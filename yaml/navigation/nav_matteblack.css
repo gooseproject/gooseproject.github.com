@@ -16,7 +16,7 @@
 
 @media all
 {
-  .hlist {
+  #nav .hlist {
     /* (en) containing floats in IE */
     /* (de) Einfassen der Floats im IE */
     width:100%;
@@ -33,7 +33,7 @@
     line-height:0;
   }
 
-  .hlist ul {
+  #nav .hlist ul {
     margin:0;
     padding:0;
     /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
@@ -43,7 +43,7 @@
     /* (de) Abstand des ersten Buttons vom linken Rand  */
   }
 
-  .hlist ul li {
+  #nav .hlist ul li {
     /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
     display:inline;
     float:left; /* LTR */
@@ -54,8 +54,8 @@
     padding:0;
   }
 
-  .hlist ul li a,
-  .hlist ul li strong {
+  #nav .hlist ul li a,
+  #nav .hlist ul li strong {
     background:transparent;
     color: #aaa;
     display:block;
@@ -67,18 +67,152 @@
     width:auto;
   }
 
-  .hlist ul li a:focus,
-  .hlist ul li a:hover,
-  .hlist ul li a:active  { background:#333; color:#eee; text-decoration:none; outline: 0 none; }
+  #nav .hlist ul li a:focus,
+  #nav .hlist ul li a:hover,
+  #nav .hlist ul li a:active  { background:#333; color:#eee; text-decoration:none; outline: 0 none; }
 
-  .hlist ul li.active {
+  #nav .hlist ul li.active {
     /* (en) Repeat the main color from the image */
     /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
     background:#555;
   }
 
-  .hlist ul li.active strong,
-  .hlist ul li.active a:focus,
-  .hlist ul li.active a:hover,
-  .hlist ul li.active a:active { background:transparent; color:#fff; text-decoration:none; }
+  #nav .hlist ul li.active strong,
+  #nav .hlist ul li.active a:focus,
+  #nav .hlist ul li.active a:hover,
+  #nav .hlist ul li.active a:active { background:transparent; color:#fff; text-decoration:none; }
+
+  /* Footer */
+  #footer .hlist {
+    /* (en) containing floats in IE */
+    /* (de) Einfassen der Floats im IE */
+    width:100%;
+    overflow:hidden;
+    /* (en) containing floats in all other browsers */
+    /* (de) Einfassen der Floats in allen anderen Browsern */
+    float:left;
+    display:inline;
+    /* (en|de) Bugfix:IE - collapsing horizontal margins */
+    position:relative;
+    /* (en) Repeat the main color from the image */
+    /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+    line-height:0;
+  }
+
+  #footer .hlist ul {
+    margin:0;
+    padding:0;
+    /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+    display:inline;
+    float:left; /* LTR */
+    /* (en) Left margin of the first button  */
+    /* (de) Abstand des ersten Buttons vom linken Rand  */
+  }
+
+  #footer .hlist ul li {
+    /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+    display:inline;
+    float:left; /* LTR */
+    font-size:1.0em;
+    line-height:1em;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+
+  #footer .hlist ul li a,
+  #footer .hlist ul li strong {
+    background:transparent;
+    color: #333;
+    display:block;
+    font-size:1em;
+    font-weight:bold;
+    margin:0;
+    padding:0.5em 0.8em 0.5em 0.8em;
+    text-decoration:none;
+    width:auto;
+  }
+
+  #footer .hlist ul li a:focus,
+  #footer .hlist ul li a:hover,
+  #footer .hlist ul li a:active  { background:#eee; color:#333; text-decoration:none; outline: 0 none; }
+
+  #footer .hlist ul li.active {
+    /* (en) Repeat the main color from the image */
+    /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+    background:#555;
+  }
+
+  #footer .hlist ul li.active strong,
+  #footer .hlist ul li.active a:focus,
+  #footer .hlist ul li.active a:hover,
+  #footer .hlist ul li.active a:active { background:transparent; color:#000; text-decoration:none; }
+
+  /* Teaser */
+  #teaser .hlist {
+    /* (en) containing floats in IE */
+    /* (de) Einfassen der Floats im IE */
+    width:100%;
+    overflow:hidden;
+    background: maroon;
+    /* (en) containing floats in all other browsers */
+    /* (de) Einfassen der Floats in allen anderen Browsern */
+    float:left;
+    display:inline;
+    /* (en|de) Bugfix:IE - collapsing horizontal margins */
+    position:relative;
+    /* (en) Repeat the main color from the image */
+    /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+    line-height:0;
+  }
+
+  #teaser .hlist ul {
+    margin:0;
+    padding:0;
+    /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+    display:inline;
+    float:left; /* LTR */
+    /* (en) Left margin of the first button  */
+    /* (de) Abstand des ersten Buttons vom linken Rand  */
+  }
+
+  #teaser .hlist ul li {
+    /* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+    display:inline;
+    float:left; /* LTR */
+    font-size:1.0em;
+    line-height:1em;
+    list-style-type:none;
+    margin:0;
+    padding-right:2em;
+    padding-left:2em;
+  }
+
+  #teaser .hlist ul li a,
+  #teaser .hlist ul li strong {
+    color: #fff;
+    display:block;
+    font-size:1em;
+    font-weight:bold;
+    margin:0;
+    padding:0.5em 0.8em 0.5em 0.8em;
+    text-decoration:none;
+    width:auto;
+  }
+
+  #teaser .hlist ul li a:focus,
+  #teaser .hlist ul li a:hover,
+  #teaser .hlist ul li a:active  { background: maroon; color:#efe; text-decoration:none; outline: 0 none; }
+
+  #teaser .hlist ul li.active {
+    /* (en) Repeat the main color from the image */
+    /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
+    background:#555;
+  }
+
+  #teaser .hlist ul li.active strong,
+  #teaser .hlist ul li.active a:focus,
+  #teaser .hlist ul li.active a:hover,
+  #teaser .hlist ul li.active a:active { background:transparent; color:#fff; text-decoration:none; }
+
 }

@@ -50,7 +50,7 @@
     padding-left: 10%;
     padding-right: 10%;
   }
-  #footer { padding: 10px 20px; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
+  #footer { padding: 10px 10%; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
 
   /* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */
   #nav ul { margin-left: 20px; }

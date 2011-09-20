@@ -3,16 +3,17 @@
 <title>{{ page.title }}</title>
 <style type="text/css">
 body, body a { color: black; font-family:Sans,Georgia; }
-#topnav { background-color: black; color: white; line-height: 4em; }
+#topnav { background-color: black; color: white; line-height: 3em; }
+#topnav a:hover { color: #FFFFFF; }
+#topnav .currentpage { background-color: black; color: #AA0000; }
 #topnav ul, #status, #content, #footer { margin: 0 auto; width: 50em; }
-#topnav a:hover { color: #800000; }
 #topnav a, #header a, #header, #topnav { color: white; text-decoration: none;  }
 #topnav li, #footer li { display: block; padding: 0 3em 0 0; float: left; list-style-type: none; }
 .clear { clear: both; }
 #topnav ul { padding: 0; }
 #topnav { }
 .homelink { font-size: 1.5em; }
-.signpost { font-size: 2.5em; }
+.signpost { font-size: 2em; }
 .gph { font-size: 1.25em; font-weight: bold; }
 
 #main { margin-right: 21em; line-spacing: 2; padding-right: 1em;}
@@ -37,11 +38,11 @@ h1, h2, h3, h4, ul, dl { margin: 0 0 0 0; }
 <div id="topnav">
 <ul>
 <li><a href="/" class="homelink">{{page.title}}</a></li>
-<li><a href="/">Home</a></li>
-<li><a href="#">Community</a></li>
-<li><a href="#">Download</a></li>
-<li><a href="#">Help</a></li>
-<li><a href="#">About</a></li>
+<li><a href="/"{% if page.name == 'home' %} class="currentpage"{% endif %}>Home</a></li>
+<li><a href="/community.html"{% if page.name == 'community' %} class="currentpage"{% endif %}>Community</a></li>
+<li><a href="/download.html"{% if page.name == 'download' %} class="currentpage"{% endif %}>Download</a></li>
+<li><a href="/help.html"{% if page.name == 'help' %} class="currentpage"{% endif %}>Help</a></li>
+<li><a href="/about.html"{% if page.name == 'about' %} class="currentpage"{% endif %}>About</a></li>
 </ul>
 <br class="clear" />
 </div>
@@ -50,6 +51,8 @@ h1, h2, h3, h4, ul, dl { margin: 0 0 0 0; }
         {% case page.name %}
             {% when 'home' %}
                 {% include home_status.html %}
+            {% when 'community' %}
+                {% include community_status.html %}
         {% endcase %}
     </div>
 </div>

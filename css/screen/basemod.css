@@ -1,0 +1,73 @@
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS framework
+ * (en) stylesheet for screen layout
+ * (de) Stylesheet für das Bildschirm-Layout
+ *
+ * @creator       YAML Builder V1.2.1 (http://builder.yaml.de)
+ * @file          basemod.css
+ * @-yaml-minver  3.3
+ */
+
+@media screen, projection
+{
+  /** 
+   * (en) Forcing vertical scrollbars in IE8, Firefox, Webkit & Opera 
+   * (de) Erzwingen vertikaler Scrollbalken in IE8, Firefox, Webkit & Opera 
+   *
+   * @workaround
+   * @affected IE8, FF, Webkit, Opera
+   * @css-for all
+   * @valid CSS3
+   */
+
+  body { overflow-y: scroll; }
+
+  /*-------------------------------------------------------------------------*/
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+  body { background: #fff; margin: 0;}
+
+  /* Layout Alignment | Layout-Ausrichtung */
+  .page_margins { margin: 0; }
+
+  /* Layout Properties | Layout-Eigenschaften */
+  .page_margins { width: auto;  min-width: 740px; max-width: none; background: #fff; }
+  .page { padding: 0; }
+  #nav { overflow:hidden; }
+  #nav div {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #main { margin: 10px 0; background: #fff; }
+  #teaser { clear:both;
+    padding-left: 0;
+    margin: 0;
+    background: maroon;
+    color: #eee;
+  }
+  #teaser div {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #footer { padding: 10px 10%; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
+
+  /* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */
+  #nav ul { margin-left: 20px; }
+
+  /*-------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+   */
+
+  #col1 { float: left; width: 60%}
+  #col2 { display:none}
+  #col3 { width: auto; margin: 0 0 0 40%}
+  #col1_content { padding: 0 10px 0 20px }
+  #col3_content { padding: 0 20px 0 10px }
+  
+  /*-------------------------------------------------------------------------*/
+}

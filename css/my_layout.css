@@ -13,7 +13,7 @@
 @import url(../yaml/core/base.css);
 
 /* import screen layout | Screen-Layout einbinden */
-@import url(../yaml/navigation/nav_shinybuttons.css);
+@import url(../yaml/navigation/nav_matteblack.css);
 @import url(screen/basemod.css);
 @import url(screen/content.css);
 

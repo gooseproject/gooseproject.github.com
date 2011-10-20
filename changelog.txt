@@ -1,0 +1,30 @@
+Version 1.0.10 - 11/06/26
+- Updated to YAML 3.3.1 
+
+Version 1.0.9 - 10/10/03
+- Updated to YAML 3.3 
+
+Version 1.0.8 - 10/01/10
+- Updated to YAML 3.2.1 
+
+Version 1.0.7 - 09/03/27
+- Updated to YAML 3.2 
+
+Version 1.0.6 - 09/03/24
+- Bugfix: corrected path to iehacks.css in css/patches/patch_my_layout.css 
+
+Version 1.0.5 - 09/01/20
+- Updated to YAML 3.1 
+
+Version 1.0.4 - 08/05/25
+- Updated to YAML 3.0.6 
+
+Version 1.0.3 - 08/04/06
+- js/minmax.js included for better compatibility with YAML Builder
+- gfxborder images included (css/screen/images/gfxborder) for better compatibility with YAML Builder
+
+Version 1.0.2 - 07/11/25
+- Updated to YAML 3.0.4 
+
+Version 1.0.1 - 07/10/03
+- relative path to "iehacks.css" in "css/patches/patch_my_layout.css" corrected

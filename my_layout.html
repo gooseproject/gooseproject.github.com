@@ -11,14 +11,13 @@
 <![endif]-->
 </head>
 <body>
-  <div class="page_margins">
-    <!-- start: skip link navigation -->
-    <a class="skip" title="skip link" href="#navigation">Skip to the navigation</a><span class="hideme">.</span>
-    <a class="skip" title="skip link" href="#content">Skip to the content</a><span class="hideme">.</span>
-    <!-- end: skip link navigation -->
-    <!-- start: skip link navigation -->
-    <!-- end: skip link navigation -->
-    <div class="page">
+<!-- start: skip link navigation -->
+<a class="skip" title="skip link" href="#navigation">Skip to the navigation</a><span class="hideme">.</span>
+<a class="skip" title="skip link" href="#content">Skip to the content</a><span class="hideme">.</span>
+<!-- end: skip link navigation -->
+<!-- start: skip link navigation -->
+<!-- end: skip link navigation -->
+<div id="header" role="banner">
       <div id="nav">
         <!-- skiplink anchor: navigation -->
         <a id="navigation" name="navigation"></a>
@@ -33,7 +32,8 @@
           </ul>
         </div>
       </div>
-      <div id="teaser">
+</div>
+<div id="teaser">
         <h1>H1 Heading</h1>
         <ul>
           <li>List Item 1</li>
@@ -42,8 +42,10 @@
           <li>List Item 4</li>
           <li>List Item 5</li>
         </ul>
-      </div>
-      <div id="main">
+</div>
+<div id="main">
+  <div class="page_margins">
+    <div class="page">
         <div id="col1">
           <div id="col1_content" class="clearfix">
             <!-- add your content here -->
@@ -79,11 +81,11 @@
           <!-- IE Column Clearing -->
           <div id="ie_clearing"> &#160; </div>
         </div>
-      </div>
+    </div>
+  </div>
+</div>
       <!-- begin: #footer -->
       <div id="footer">Layout based on <a href="http://www.yaml.de/">YAML</a>
       </div>
-    </div>
-  </div>
 </body>
 </html>

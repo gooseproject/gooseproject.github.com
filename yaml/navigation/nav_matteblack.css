@@ -31,6 +31,7 @@
     /* (de) Wiederholung der Hauptfarbe aus der Bilddatei */
     background:#000;
     line-height:0;
+    padding-left: 10%;
   }
 
   #nav .hlist ul {

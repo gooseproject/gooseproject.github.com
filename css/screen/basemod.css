@@ -37,7 +37,9 @@
   /* Layout Properties | Layout-Eigenschaften */
   .page_margins { width: auto;  min-width: 60em; max-width: 95%; background: #fff; }
   .page { padding: 10px; }
-  #nav { overflow:hidden; }
+  #nav {
+    overflow:hidden;
+  }
   #main {
     margin: 0;
     background: #fff;

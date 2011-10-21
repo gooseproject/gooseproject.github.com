@@ -26,7 +26,10 @@
 
   /* (en) Marginal areas & page background */
   /* (de) Randbereiche & Seitenhintergrund */
-  body { background: #4d87c7 url("images/bg_blue.png") repeat-x top left fixed; padding: 10px 0; }
+  body {
+    background: transparent; 
+    padding: 0;
+  }
 
   /* Layout Alignment | Layout-Ausrichtung */
   .page_margins { margin: 0 auto; }
@@ -35,7 +38,10 @@
   .page_margins { width: auto;  min-width: 60em; max-width: 95%; background: #fff; }
   .page { padding: 10px; }
   #nav { overflow:hidden; }
-  #main { margin: 10px 0; background: #fff; }
+  #main {
+    margin: 0;
+    background: #fff;
+  }
   #teaser { clear:both; padding: 0 20px; margin: 10px 0; }
   #footer { padding: 10px 20px; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
 

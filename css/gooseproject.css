@@ -1,6 +1,22 @@
 #teaser {
   background: #800;
   margin: 0;
+  padding: 1em;
   color: #fff;
 }
+
+#teaser .hlist {
+  width:100%;
+}
+
+#teaser .hlist h1 {
+  float: left;
+}
+
+#teaser .hlist ul {
+}
+
+#teaser .hlist ul li {
+}
+
 

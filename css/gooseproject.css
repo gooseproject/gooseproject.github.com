@@ -1,22 +1,20 @@
+.clear {
+  clear: both;
+}
+
 #teaser {
   background: #800;
   margin: 0;
-  padding: 1em;
+  margin-bottom: 2em;
+  padding: 1em 0;
   color: #fff;
 }
 
-#teaser .hlist {
-  width:100%;
+#teaser .status h1 {
+  width: 30em;
 }
 
-#teaser .hlist h1 {
-  float: left;
-}
-
-#teaser .hlist ul {
-}
-
-#teaser .hlist ul li {
-}
-
+#teaser .status ul { width: 60em; padding: 0; margin: 0; }
+#teaser .status li { width: 15em; list-style-type: none; font-size: smaller; float: left; }
+#teaser .status li em { display: block; font-size: larger; font-style: normal; font-weight: bold; }
 

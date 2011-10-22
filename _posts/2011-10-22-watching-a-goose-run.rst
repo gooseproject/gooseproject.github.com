@@ -3,9 +3,7 @@ layout: default
 title: Watching a GoOSe run, er, sprint!
 ---
 
-=======================
-GoOSE Sprint 2011-10-22
-=======================
+<h2> GoOSE Sprint 2011-10-22 </h2>
 
 Today is one of those nice Saturdays in Draper, UT.
 
@@ -23,9 +21,11 @@ A day to focus on and work on the the GoOSe Project.
 
 Things that have received attention are:
 
-- The GoOSe webiste
-- Skein
-- Misc.
+<ul>
+<li>The GoOSe webiste</li>
+<li>Skein</li>
+<li>Misc.</li>
+</ul>
 
 Join us for the next of the GoOSe sprint and maybe the 
 upcoming GoOSe con?

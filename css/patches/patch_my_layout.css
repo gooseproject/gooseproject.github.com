@@ -24,8 +24,8 @@
   */
 
   * html #col3 {height: 1%}
-  * html #col1 {margin-right: -3px}
-  * html #col3 {margin-left: 49%}
+  * html #col1 {margin-left: -3px}
+  * html #col3 {margin-right: 49%}
 
  /**
   * min-width/max-width workaround for IE
@@ -41,6 +41,6 @@
     width: auto;
 
     /* JS-Expression for min-/max-width simulation */
-    width: expression((document.documentElement && document.documentElement.clientHeight) ? ((document.documentElement.clientWidth < 740) ? "740px" : "auto") : ((document.body.clientWidth < 740) ? "740px" : "auto"));
+    width: expression((document.documentElement && document.documentElement.clientHeight) ? ((document.documentElement.clientWidth < (60 * 16 * (parseInt(this.parentNode.currentStyle.fontSize) / 100))) ? "60em" : ((document.documentElement.clientWidth > (95/100 * document.documentElement.clientWidth)) ? "95%" : "auto" )) : ((document.body.clientWidth < (60 * 16 * (parseInt(this.parentNode.currentStyle.fontSize) / 100))) ? "60em" : ((document.body.clientWidth > (95/100 * document.body.clientWidth)) ? "95%" : "auto" )));
   }
 }

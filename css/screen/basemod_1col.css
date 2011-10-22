@@ -58,10 +58,10 @@
    *
    */
 
-  #col1 { float: right; width: 50%}
+  #col1 { display:none}
   #col2 { display:none}
-  #col3 { width: auto; margin: 0 50% 0 0}
-  #col1_content { padding: 0 20px 0 10px }
+  #col3 { width: auto; margin: 0}
+  #col1_content { display: none}
   #col3_content { padding: 0 10px 0 20px }
   
   /*-------------------------------------------------------------------------*/

@@ -1,0 +1,30 @@
+body, body a { color: black; font-family:Sans,Georgia; }
+#topnav { background-color: black; color: white; line-height: 3em; }
+#topnav a:hover { color: #FFFFFF; }
+#topnav .currentpage { background-color: black; color: #ffce2a; }
+#topnav ul, #status, #content, #footer { margin: 0 auto; width: 50em; }
+#topnav a, #header a, #header, #topnav { color: white; text-decoration: none;  }
+#topnav li, #footer li { display: block; padding: 0 3em 0 0; float: left; list-style-type: none; }
+.clear { clear: both; }
+#topnav ul { padding: 0; }
+#topnav { }
+.homelink { font-size: 1.5em; }
+.signpost { font-size: 2em; }
+.gph { font-size: 1.25em; font-weight: bold; }
+
+#main { margin-right: 21em; line-spacing: 2; padding-right: 1em;}
+#main img { width: 100%; padding: 0 1em 0 2em; }
+#header { background-color: #800000; margin-bottom: 2em; padding: 1em 0; }
+h1, h2, h3, h4, ul, dl { margin: 0 0 0 0; }
+#news { width: 20em; float: right; border-width: 0 0 0 1px; border-style: solid; border-color: #eee; padding: 0 0 0 1em; }
+#news a { color: #333; }
+#news p, #main p { margin: .5em 0 1em 0; }
+#news h3 { margin: .5em 0 0 0; }
+
+.signpost { width: 30em; }
+#header ul { width: 60em; padding: 0; margin: 0; }
+#header li { width: 15em; list-style-type: none; font-size: smaller; float: left; }
+#header li em { display: block; font-size: larger; font-style: normal; font-weight: bold; }
+
+#footer { padding: 2em 0; }
+

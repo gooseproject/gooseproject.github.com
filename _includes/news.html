@@ -1,0 +1,6 @@
+            <!-- add your right-sidebar content here -->
+            <h1>Latest News</h1>
+{% for post in site.posts limit:3 %}
+<h2><a href="{{ page.rooturi }}{{ post.url }}">{{ post.title }}</a></h2>
+<p>{{ post.content | truncatewords: 30 }} <a href="{{ page.rooturi }}{{ post.url }}">READ MORE</a></p>
+{% endfor %}

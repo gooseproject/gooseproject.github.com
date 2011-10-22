@@ -12,7 +12,11 @@
 </head>
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script src="/js/ourscript.js"></script>
+<script>
+$(document).ready(function(){
+  $('#teaser').load('statusinclude.html');
+});
+</script>
 <!-- start: skip link navigation -->
 <a class="skip" title="skip link" href="#navigation">Skip to the navigation</a><span class="hideme">.</span>
 <a class="skip" title="skip link" href="#content">Skip to the content</a><span class="hideme">.</span>
@@ -24,8 +28,7 @@
 <!-- end: header-->
 <!-- start: teaser-->
 <div id="teaser">
-  <div class="status">
-  </div>
+    {% include home_status.html %}
 </div>
 <!-- end: teaser-->
 <!-- start: main-->

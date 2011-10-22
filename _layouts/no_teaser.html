@@ -11,12 +11,6 @@
 <![endif]-->
 </head>
 <body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $('#teaser').load('statusinclude.html');
-});
-</script>
 <!-- start: skip link navigation -->
 <a class="skip" title="skip link" href="#navigation">Skip to the navigation</a><span class="hideme">.</span>
 <a class="skip" title="skip link" href="#content">Skip to the content</a><span class="hideme">.</span>
@@ -28,7 +22,8 @@ $(document).ready(function(){
 <!-- end: header-->
 <!-- start: teaser-->
 <div id="teaser">
-    {% include home_status.html %}
+  <div class="status">
+  </div>
 </div>
 <!-- end: teaser-->
 <!-- start: main-->
@@ -37,22 +32,7 @@ $(document).ready(function(){
   <div class="page_margins">
     <!-- start: page -->
     <div class="page">
-        <!-- start: col1 -->
-        <div id="col1">
-          <div id="col1_content" class="clearfix">
-            {% include sidebar.html %}
-          </div>
-        </div>
-        <!-- end: col1 -->
-        <!-- start: col3 -->
-        <div id="col3">
-          <div id="col3_content" class="clearfix">
-            <!-- add your main content here -->
-            {{ content }}
-          <!-- IE Column Clearing -->
-          <div id="ie_clearing"> &#160; </div>
-        </div>
-        <!-- end: col3 -->
+      {{ content }}
     </div>
     <!-- end: page -->
   </div>

@@ -2,20 +2,10 @@
 layout: main
 title: GoOSe Project
 name: home
+sidebar: news
 ---
-
-<aside id="news">
-<h2>Latest News</h2>
-{% for post in site.posts limit:3 %}
-<h3><a href="{{ page.rooturi }}{{ post.url }}">{{ post.title }}</a></h3>
-<p>{{ post.content | truncatewords: 30 }} <a href="{{ page.rooturi }}{{ post.url }}">READ MORE</a></p>
-{% endfor %}
-</aside>
-<section id="main">
 
 {% include what-is-goose.html %}
 
 {% include get-started-with-goose.html %}
-
-</section>
 <br class="clear" />

@@ -40,7 +40,15 @@ $(document).ready(function(){
         <!-- start: col1 -->
         {% include news.html %}
         <!-- end: col1 -->
-        {{ content }}
+        <!-- start: col3 -->
+        <div id="col3">
+          <div id="col3_content" class="clearfix">
+            <!-- add your main content here -->
+            {{ content }}
+          <!-- IE Column Clearing -->
+          <div id="ie_clearing"> &#160; </div>
+        </div>
+        <!-- end: col3 -->
     </div>
     <!-- end: page -->
   </div>

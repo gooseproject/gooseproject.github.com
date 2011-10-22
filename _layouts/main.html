@@ -37,7 +37,10 @@ $(document).ready(function(){
   <div class="page_margins">
     <!-- start: page -->
     <div class="page">
-      {{ content }}
+        <!-- start: col1 -->
+        {% include news.html %}
+        <!-- end: col1 -->
+        {{ content }}
     </div>
     <!-- end: page -->
   </div>

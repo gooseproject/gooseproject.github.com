@@ -3,7 +3,7 @@ layout: default
 title: Watching a GoOSe run, er, sprint!
 ---
 
-<h2> GoOSE Sprint 2011-10-22 </h2>
+GoOSE Sprint 2011-10-22
 
 Today is one of those nice Saturdays in Draper, UT.
 

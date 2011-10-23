@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: main
 title: Watching a GoOSe run, er, sprint!
+name: 2011-10-22-goosesprint
 ---
 
 GoOSE Sprint 2011-10-22
@@ -30,4 +31,4 @@ Things that have received attention are:
 Join us for the next of the GoOSe sprint and maybe the 
 upcoming GoOSe con?
 
-``- Mike``
+- Mike

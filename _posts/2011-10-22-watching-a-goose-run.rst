@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Watching a GoOSe run, er, sprint!
+title: Watch a GoOSe run, er, sprint!
 name: 2011-10-22-goosesprint
 ---
 

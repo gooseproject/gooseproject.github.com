@@ -1,0 +1,11 @@
+GoOSe Project Website Style Guide
+
+* Licensing
+
+The GoOSe proeject uses a layout based on YAML (http://www.yaml.de).
+YAML is published under the Common Creatives Attributions 2.2 license and requires
+a back link to the original project page in a prominant location or in the
+imprent of the site.
+
+To stay compliant we should ensure that a compliant footer is included in the layout
+of every page.

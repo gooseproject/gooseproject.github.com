@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: one_col
 title: Watching a GoOSe run, er, sprint!
 name: 2011-10-22-goosesprint
 ---

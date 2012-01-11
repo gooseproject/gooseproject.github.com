@@ -8,7 +8,6 @@ We're proud to announce that Clint Savage will be presenting at [PLUG](http://ww
 
 Here's the announcement from the plug site:
 
-<div class="content">
 
   <em>Date: January 11th, 2012<br>
   Time: 7:30 PM<br>
@@ -21,4 +20,3 @@ Here's the announcement from the plug site:
   <p>
   Thanks to <a href="/c7dc">C7 Data Centers</a>, we will be meeting at Canopy Building 5 in Lindon, behind Home Depot (<a href="/c7dc">map on this page</a>).  You will need to bring a photo ID in order to sign in at the front desk.
   </p>
-</div>

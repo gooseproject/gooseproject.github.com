@@ -1,6 +1,5 @@
 cache
-siteroot/*.xml
-siteroot/*.html
+siteroot/
 logs/
 _site/
 .*sw*

@@ -1,6 +1,6 @@
 ---
 layout: one_col
-title:  January Plug Meeting: GoOSeLinux - Rebuilding Enterprise Linux the "Community" Way
+title: 'January Plug Meeting: GoOSeLinux - Rebuilding Enterprise Linux the "Community" Way'
 name: 2012-01-10-Plug-Meeting
 ---
 

@@ -4,3 +4,4 @@ siteroot/*.html
 logs/
 _site/
 .*sw*
+*.py[oc]

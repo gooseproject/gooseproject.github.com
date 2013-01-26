@@ -3,7 +3,6 @@ siteroot/*.xml
 siteroot/*.html
 logs/
 _site/
-output/
 chunk/
 .*sw*
 *.py[oc]

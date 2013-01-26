@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GoOSe Project</title><link href="http://gooseproject.org/" rel="alternate"></link><link href="http://gooseproject.org/feeds/News.atom.xml" rel="self"></link><id>http://gooseproject.org/</id><updated>2012-02-20T00:00:00-05:00</updated><entry><title>Get Started with the GoOSe Project</title><link href="http://gooseproject.org/get-started-with-the-goose-project.html" rel="alternate"></link><updated>2012-02-20T00:00:00-05:00</updated><author><name>herlo</name></author><id>tag:gooseproject.org,2012-02-20:get-started-with-the-goose-project.html</id><summary type="html">&lt;p&gt;The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.&lt;/p&gt;
+&lt;p&gt;As with any open source project, GoOSe needs contributors. There is always work to be done. If you have interest in helping the GoOSe Project, there are just a few steps you need to take to get involved.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="signup.html"&gt;Sign Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Introduce Yourself&lt;/li&gt;
+&lt;li&gt;Take on a Task&lt;/li&gt;
+&lt;li&gt;Choose a Role&lt;/li&gt;
+&lt;li&gt;Do Work&lt;/li&gt;
+&lt;li&gt;Enjoy the Benefits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Getting involved in GoOSe is definitely something one should take time to consider. Once involved, it may lead to long hours in front of a computer, talking with cool people and working on cool projects. Don't let that dissuade you, there will also be releases and future events where all members of the GoOSe project will gather and enjoy a weekend of hacking and drinking.&lt;/p&gt;
+&lt;div class="section" id="learn-about-the-goose-community"&gt;
+&lt;h2&gt;Learn About the GoOSe Community&lt;/h2&gt;
+&lt;p&gt;The GoOSe Project communicates in many different ways. Here are the most common.&lt;/p&gt;
+&lt;div class="section" id="the-goose-social-networks"&gt;
+&lt;h3&gt;The GoOSe Social Networks&lt;/h3&gt;
+&lt;p&gt;Check out our &lt;a class="reference external" href="https://twitter.com/GooseProject"&gt;Twitter&lt;/a&gt;, &lt;a class="reference external" href="http://identi.ca/group/gooselinux"&gt;Identi.ca&lt;/a&gt;, &lt;a class="reference external" href="https://www.facebook.com/gooseproject"&gt;Facebook&lt;/a&gt; and &lt;a class="reference external" href="https://plus.google.com/114797883199505553142/posts"&gt;Google+&lt;/a&gt;  status updates.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="planet-goose"&gt;
+&lt;h3&gt;Planet GoOSe&lt;/h3&gt;
+&lt;p&gt;Read &lt;a class="reference external" href="http://planet.gooseproject.org"&gt;blog posts&lt;/a&gt; by the community. You can add your blog, too!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="chat-with-the-goose-community"&gt;
+&lt;h3&gt;Chat with the GoOSe Community&lt;/h3&gt;
+&lt;p&gt;GoOSe communicates in #gooseproject on &lt;a class="reference external" href="http://irc.freenode.net"&gt;irc.freenode.net&lt;/a&gt;. If you have never used IRC before, check out the &lt;a class="reference external" href="http://www.irchelp.org/irchelp/irctutorial.html"&gt;IRC Tutorial&lt;/a&gt; to get started or use &lt;a class="reference external" href="http://webchat.freenode.net/?channels=gooseproject&amp;amp;uio=MTE9MzY5cf"&gt;web chat&lt;/a&gt; provided by FreeNode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="join-the-discussion"&gt;
+&lt;h3&gt;Join the Discussion&lt;/h3&gt;
+&lt;p&gt;GoOSe has a mailing list, read or sign up below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://groups.google.com/group/goose-linux"&gt;GoOSe Development List&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry></feed>

@@ -3,4 +3,6 @@ siteroot/*.xml
 siteroot/*.html
 logs/
 _site/
+chunk/
 .*sw*
+*.py[oc]

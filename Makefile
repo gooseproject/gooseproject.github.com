@@ -1,9 +1,9 @@
 PELICAN=pelican
 PELICANOPTS=
 
-BASEDIR=$(CURDIR)
+BASEDIR=$(CURDIR)/src
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(CURDIR)
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
@@ -43,7 +43,8 @@ $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
-	find $(OUTPUTDIR) -mindepth 1 -delete
+	rm -f $(OUTPUTDIR)/*.html
+	rm -rf author/ category/ feeds/ theme/
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -70,7 +71,8 @@ ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
 github: publish
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	git add .
+	git commit -m "publish auto-update"
+	git push origin master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github

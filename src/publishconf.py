@@ -3,6 +3,7 @@
 
 import sys
 sys.path.append('.')
+sys.path.append('./src')
 from pelicanconf import *
 
 SITEURL = 'http://gooseproject.org'

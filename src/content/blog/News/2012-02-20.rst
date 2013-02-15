@@ -2,6 +2,7 @@ Get Started with the GoOSe Project
 ##################################
 
 :date: 2012-02-20
+:author: Clint Savage (herlo)
 
 The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.
 
@@ -27,7 +28,6 @@ The GoOSe Social Networks
 Check out our `Twitter <https://twitter.com/GooseProject>`_, `Identi.ca <http://identi.ca/group/gooselinux>`_, `Facebook <https://www.facebook.com/gooseproject>`_ and `Google+ <https://plus.google.com/114797883199505553142/posts>`_  status updates.
 
 Planet GoOSe
-~~~~~~~~~~~~
 
 Read `blog posts <http://planet.gooseproject.org>`_ by the community. You can add your blog, too!
 
@@ -42,5 +42,3 @@ Join the Discussion
 GoOSe has a mailing list, read or sign up below:
 
     `GoOSe Development List <https://groups.google.com/group/goose-linux>`_
-
-

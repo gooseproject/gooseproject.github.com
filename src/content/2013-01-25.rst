@@ -1,6 +1,0 @@
-Welcome to the GoOSe Project!
-#############################
-
-Welcome to the home of the GoOSe Project! GoOSe Linux is an free Enterprise Linux Rebuild, built from sources of a `popular Enterprise distribution <http://redhat.com>`_.
-
-The GoOSe Project  with access to the latest new capabilities, support for the latest hardware innovations and technologies, and more!

@@ -48,9 +48,8 @@ body {
 	color: #000;
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-weight: bold;
-	font-size: 80px;
+	font-size: 50px;
 	margin: 0px;
-	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
 }
 #site-title a {
@@ -74,6 +73,10 @@ body {
 	margin-bottom: 50px;
 	padding: 6px 10px;
 }
+#site-logo {
+	text-align: right;
+}
+
 #menu #header-image a {
 	margin: 0;
 	padding: 0;

@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'herlo'
-SITENAME = u'GoOSe Project'
+SITENAME = u'The GoOSe Project'
+SITESUBTITLE = u'A Community Enterprise Linux Rebuild'
 SITEURL = 'http://gooseproject.org'
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = u'en'
 
@@ -17,9 +18,16 @@ DEFAULT_LANG = u'en'
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-THEME = 'chunk'
-DISPLAY_CATEGORIES_ON_MENU = True
+#THEME = 'chunk'
+THEME = 'notmyidea'
 
+INDEX_SAVE_AS = 'index2.html'
+PAGE_SAVE_AS = '{slug}.html'
+PAGE_URL = '{slug}.html'
+
+DELETE_OUTPUT_DIRECTORY = True
+
+DISPLAY_CATEGORIES_ON_MENU = True
 REVERSE_CATEGORY_ORDER = True
 DEFAULT_PAGINATION = 5
 DEFAULT_DATE = 'fs'

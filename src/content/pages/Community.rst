@@ -1,5 +1,5 @@
-The GoOSe Community
-###################
+Community
+#########
 
 :date: 2012-01-04
 

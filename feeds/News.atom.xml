@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GoOSe Project</title><link href="http://gooseproject.org/" rel="alternate"></link><link href="http://gooseproject.org/feeds/News.atom.xml" rel="self"></link><id>http://gooseproject.org/</id><updated>2012-02-20T00:00:00-05:00</updated><entry><title>Get Started with the GoOSe Project</title><link href="http://gooseproject.org/get-started-with-the-goose-project.html" rel="alternate"></link><updated>2012-02-20T00:00:00-05:00</updated><author><name>herlo</name></author><id>tag:gooseproject.org,2012-02-20:get-started-with-the-goose-project.html</id><summary type="html">&lt;p&gt;The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The GoOSe Project</title><link href="http://gooseproject.org/" rel="alternate"></link><link href="http://gooseproject.org/feeds/News.atom.xml" rel="self"></link><id>http://gooseproject.org/</id><updated>2012-02-20T00:00:00-07:00</updated><entry><title>Get Started with the GoOSe Project</title><link href="http://gooseproject.org/get-started-with-the-goose-project.html" rel="alternate"></link><updated>2012-02-20T00:00:00-07:00</updated><author><name>Clint Savage (herlo)</name></author><id>tag:gooseproject.org,2012-02-20:get-started-with-the-goose-project.html</id><summary type="html">&lt;p&gt;The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.&lt;/p&gt;
 &lt;p&gt;As with any open source project, GoOSe needs contributors. There is always work to be done. If you have interest in helping the GoOSe Project, there are just a few steps you need to take to get involved.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -18,9 +18,7 @@
 &lt;div class="section" id="the-goose-social-networks"&gt;
 &lt;h3&gt;The GoOSe Social Networks&lt;/h3&gt;
 &lt;p&gt;Check out our &lt;a class="reference external" href="https://twitter.com/GooseProject"&gt;Twitter&lt;/a&gt;, &lt;a class="reference external" href="http://identi.ca/group/gooselinux"&gt;Identi.ca&lt;/a&gt;, &lt;a class="reference external" href="https://www.facebook.com/gooseproject"&gt;Facebook&lt;/a&gt; and &lt;a class="reference external" href="https://plus.google.com/114797883199505553142/posts"&gt;Google+&lt;/a&gt;  status updates.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="planet-goose"&gt;
-&lt;h3&gt;Planet GoOSe&lt;/h3&gt;
+&lt;p&gt;Planet GoOSe&lt;/p&gt;
 &lt;p&gt;Read &lt;a class="reference external" href="http://planet.gooseproject.org"&gt;blog posts&lt;/a&gt; by the community. You can add your blog, too!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="chat-with-the-goose-community"&gt;

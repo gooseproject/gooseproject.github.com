@@ -20,15 +20,15 @@ DEFAULT_LANG = u'en'
 #          ('Another social link', '#'),)
 
 THEME = 'themes/chunk'
-LINKS = (('Home', 'index.html'),)
+LINKS = (('News', 'news.html'), ('Home', 'index.html'), )
 
-INDEX_SAVE_AS = 'index2.html'
+INDEX_SAVE_AS = 'news.html'
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 REVERSE_CATEGORY_ORDER = True
 DEFAULT_PAGINATION = 5
 DEFAULT_DATE = 'fs'

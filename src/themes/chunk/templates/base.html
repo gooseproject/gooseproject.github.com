@@ -38,6 +38,7 @@
 					{% for title, link in MENUITEMS %}
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ link }}">{{ title }}</a></li>
 					{% endfor %}
+
 					  {% for p in PAGES %}
               {% if p.title != 'Index' %}
 						<li{% if p == page %} class="active"{% endif %} class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>

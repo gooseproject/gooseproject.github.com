@@ -19,8 +19,7 @@ DEFAULT_LANG = u'en'
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-#THEME = 'chunk'
-THEME = 'notmyidea'
+THEME = 'themes/chunk'
 
 INDEX_SAVE_AS = 'index2.html'
 PAGE_SAVE_AS = '{slug}.html'

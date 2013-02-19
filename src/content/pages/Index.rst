@@ -16,7 +16,7 @@ GoOSe Linux, the resulting distribution, is the result of the hard work of many 
 Download the Latest Build
 -------------------------
 
-The latest (and first) release of GoOSe Linux is currently 6.0 and in the Final testing phase. It can be downloaded at `http://get.gooseproject.org <http://get.gooseproject.org/>`_. A mirror list is in the works as well, so watch for that in the near future.
+The latest (and first) release of GoOSe Linux is currently 6.0 and in the Final testing phase. It can be downloaded at `http://get.gooseproject.org <http://get.gooseproject.org/>`_. A mirror list is in the works as well, so watch for that in the near future. Additional download options can be found at our `downloads <downloads.html>`_ page.
 
 
 Read the Documentation

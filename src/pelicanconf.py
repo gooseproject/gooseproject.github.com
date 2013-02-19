@@ -4,6 +4,7 @@
 AUTHOR = u'herlo'
 SITENAME = u'The GoOSe Project'
 SITESUBTITLE = u'A Community Enterprise Linux Rebuild'
+INDEX_WELCOME = u'Welcome to the GoOSe Project'
 SITEURL = 'http://gooseproject.org'
 
 TIMEZONE = 'America/Denver'

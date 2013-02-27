@@ -20,7 +20,7 @@ DEFAULT_LANG = u'en'
 #          ('Another social link', '#'),)
 
 THEME = 'themes/chunk'
-LINKS = (('News', 'news.html'), ('Home', 'index.html'), )
+LINKS = (('Download', 'downloads.html'), ('News', 'news.html'), ('Home', 'index.html'), )
 
 INDEX_SAVE_AS = 'news.html'
 PAGE_SAVE_AS = '{slug}.html'

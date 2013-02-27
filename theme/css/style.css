@@ -117,7 +117,7 @@ body {
 	position: relative;
 }
 #access a {
-	color: #888;
+	color: #eec900;
 	display: block;
 
 	text-decoration: none;
@@ -150,7 +150,7 @@ body {
 }
 #menu li:hover > a,
 #menu ul ul :hover > a {
-	color: #444;
+  color: #007deb;
 }
 #menu ul ul a:hover {
 	background: #f0f0f0;

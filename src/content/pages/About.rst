@@ -4,7 +4,7 @@
 
 The GoOSe Project creates a Linux distribution of a Prominent North American Enterprise Linux Vendor. They object to being referred to by name in the context of clones and ports of their distribution. GoOSe Linux is similar to CentOS and Scientific Linux in form, thus should make it clear upon what Upstream version it is based.
 
-GoOSe Linux, the resulting distribution, is the result of the hard work of many individuals worldwide who have given their time and talent to open source. The GoOSe Project aims to provide the best of breed Enterprise Linux Rebuild along with the best documentation and community support. We believe that a good Linux distributistarts first with an excellent community.
+GoOSe Linux, the resulting distribution, is the result of the hard work of many individuals worldwide who have given their time and talent to open source. The GoOSe Project aims to provide the best of breed Enterprise Linux Rebuild along with the best documentation and community support. We believe that a good Linux distribution starts first with an excellent community.
 
 Ethos
 -----

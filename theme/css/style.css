@@ -58,7 +58,7 @@ body {
 	text-decoration: none;
 }
 #site-title a:hover {
-	color: #36bcab;
+	color: #eec900;
 }
 #site-description {
 	background: #f1f1f1;
@@ -105,7 +105,7 @@ body {
 	text-transform: uppercase;
 }
 #menu a:hover {
-	color: #000;
+	color: #eec900;
 }
 #menu ul {
 	list-style: none;
@@ -212,14 +212,17 @@ body {
 	font-weight: bold;
 	margin: 0px;
 }
+.hentry .entry-meta .date a:hover {
+  color: #eec900;
+}
 .hentry .entry-meta .comments {
-	color: #36bcab;
+	color: #eec900;
 	display: block;
 	font-size: 16px;
 	margin: -4px 0 0;
 }
 .hentry .entry-meta .comments a {
-	color: #36bcab;
+	color: #eec900;
 	font-size: 22px;
 	font-weight: bold;
 	text-decoration: none;
@@ -234,7 +237,7 @@ body {
 	color: #777;
 }
 .hentry .entry-meta .cat-links a:hover {
-	color: #36bcab;
+	color: #eec900;
 }
 .hentry .entry-meta .edit-link a {
 	font-size: 16px;
@@ -283,7 +286,7 @@ a {
 	text-decoration: underline;
 }
 a:hover {
-	color: #36bcab;
+	color: #007deb;
 }
 .entry-content a img {
 	border: 10px solid #ddd;
@@ -325,7 +328,7 @@ b, strong {
 	background: #f5f5f5;
 }
 .page-link a {
-	background: #36bcab;
+	background: #eec900;
 	border-radius: 26px;
 	color: #000;
 	font-weight: normal;
@@ -634,7 +637,7 @@ article.comment {
 	width: 80%;
 }
 #respond label {
-	background: #36bcab;
+	background: #eec900;
 	border-radius: 3px;
 	color: #c8f1ec;
 	font-size: 13px;
@@ -812,7 +815,7 @@ article.comment {
 	width: 800px;
 }
 #footer a {
-	color: #36bcab;
+	color: #eec900;
 	text-decoration: none;
 }
 

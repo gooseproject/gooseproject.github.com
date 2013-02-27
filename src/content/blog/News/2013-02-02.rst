@@ -1,0 +1,28 @@
+GoOSe Linux 6.0 Final Test Compose 1 (TC1)
+#############################################################
+
+:date: 2013-02-02
+:author: Clint Savage (herlo)
+
+GoOSe Linux 6.0 Final Test Compose 1 (TC1) is now available for testing. Visit http://get.gooseproject.org/ to obtain the download.
+
+Once you arrive at the above link, the downloads are under /releases/6.0/Final-TC1/GoOSe/<arch>/.
+
+Testing This Release
+--------------------
+
+There has been a flurry of work testing releases lately. In doing so, we've created a few new wiki pages to help us test. These pages have been based upon one provided on the Fedora Project Wiki (a big thank you here). The main page is https://github.com/gooseproject/main/wiki/testing-releases, which holds links to the different tests which will be performed every release. Currently, there are three pages linked:
+
+  * https://github.com/gooseproject/main/wiki/Installation-tests
+  * https://github.com/gooseproject/main/wiki/base-tests
+  * https://github.com/gooseproject/main/wiki/release-criteria
+
+For each of those pages there are issues so we can make sure to meet our milestones properly. The current milestone is '6.0 Golden GoOSe', linked here: https://github.com/gooseproject/main/issues?milestone=3&state=open.
+
+Anyway, as you are going through testing, please update the wiki page *and* the ticket with a status update so we know all the tests have been completed. Thank you all for your hard work, I am really looking forward to a 6.0 Golden GoOSe release this year! :)
+
+Cheers,
+
+herlo
+
+

@@ -1,0 +1,31 @@
+GoOSe Linux 6.0 Beta Release Candidate 5 (RC5) Now Available!
+#############################################################
+
+:date: 2012-12-22
+:author: Clint Savage (herlo)
+
+GoOSe Linux 6.0 Beta Release Candidate 5 (RC5) is now available for testing. Visit http://get.gooseproject.org/ to obtain the download.
+
+Once you arrive at the above link, the downloads are under /releases/6.0/Beta-RC5/GoOSe/<arch>/.
+
+The GoOSe Project is always interested in feedback around its project. Please feel free to drop us a line about this release.
+
+Comments/Questions:
+
+  * Send us an email goose-linux@googlegroups.com
+  * Contact us on irc.freenode.net at #gooseproject
+
+Issues with GoOSe 6.0
+---------------------
+
+If you find yourself having trouble installing, using or managing GoOSe Linux, please let us know. The best way is to file issues at our main project site on github, but we’re happy to have the information in any of the ways listed above.
+
+Testing can be done by anyone. Please feel free to check our new testing wiki page for information on what tests need to be run and which have already passed. If you have interest in helping us test, thank you, thank you, thank you for the help!
+
+GoOSe Beta-RC5 will be available for 1 week from today. At such time the GoOSe team will decide whether it will be the first Golden GoOSe release. This will be based upon feedback provided, so please do tell us what you think!
+
+Cheers,
+
+herlo
+
+

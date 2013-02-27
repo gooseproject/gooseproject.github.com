@@ -16,4 +16,4 @@ There have been and will continue to be many challenges to overcome and problems
 
 The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.
 
-As with any open source project, GoOSe needs contributors. There is always work to be done. If you have interest in helping the GoOSe Project, check out our `README <https://github.com/gooseproject/main/blob/master/README.rst>`. It reveals all the dirt on how to join The GoOSe Project and how to make your first contribution (hint: it's dead simple to get started).
+As with any open source project, GoOSe needs contributors. There is always work to be done. If you have interest in helping the GoOSe Project, check out our `README <https://github.com/gooseproject/main/blob/master/README.rst>`_. It reveals all the dirt on how to join The GoOSe Project and how to make your first contribution (hint: it's dead simple to get started).

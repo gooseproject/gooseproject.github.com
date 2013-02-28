@@ -22,7 +22,7 @@ DEFAULT_LANG = u'en'
 THEME = 'themes/chunk'
 LINKS = (('Download', 'downloads.html'), ('News', 'news.html'), )
 
-INDEX_SAVE_AS = 'news.html'
+INDEX_SAVE_AS = 'index.html'
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 

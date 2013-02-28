@@ -4,14 +4,14 @@ GoOSe Linux 6.0 Now Available
 :date: 2013-02-27
 :author: Clint Savage (herlo)
 
-The GoOSe Project is pleased to announce the availability of GoOSe Linux 6.0 for i386 and x86_64 Architectures.
+The GoOSe Project is pleased to announce the availability of GoOSe Linux 6.0 for i386 and x86_64 Architectures. With this release, the project aims to demonstrate that constructing a build infrastructure and an open community centered around enterprise linux is possible.
 
 GoOSe-6.0 is based on the upstream's 6.0 Enterprise Release with limited changes where required.
 
 Moving from EL-4 or EL-5
 ------------------------
 
-Since this is the first GoOSe Linux release, it is recommended to reinstall rather than attempting any sort of upgrade process.
+Since this is the first GoOSe Linux release, it is recommended to reinstall rather than attempting any sort of upgrade process. (Since there aren't prior releases, you'd have to install anyways.)
 
 Downloading GoOSe Linux 6.0
 ---------------------------

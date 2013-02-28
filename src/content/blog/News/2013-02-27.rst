@@ -25,6 +25,29 @@ Source RPMS
 
 Source RPMS are also available on our mirrors. See http://gooseproject.org/downloads.html for a list of mirrors to download.
 
+Getting Help
+------------
+
+The GoOSe Project wants to help. The best place to get help is on IRC. Visit #gooseproject on irc.freenode.net to ask any questions or request help. Additionally, there are many other communities who are willing to help. If you think there is an issue with the release, please report it at https://github.com/gooseproject/main/issues/new. The GoOSe Project will attempt to resolve all issues, but there are no guarantees.
+
+Join the GoOSe
+--------------
+
+There have been and will continue to be many challenges to overcome and problems to solve that will be very interesting. Won't you help us? Getting started doesn't require years of training or secret pass phrases. Join our IRC channel (#gooseproject on irc.freenode.net) and the mailing list (goose-linux@googlegroups.com) to discuss what GoOSe is and what we do.
+
+The GoOSe Project is a meritocracy. Those that do the work and get involved decide its direction and focus.
+
+As with any open source project, GoOSe needs contributors. There is always work to be done. If you have interest in helping the GoOSe Project, check out our `README <https://github.com/gooseproject/main/blob/master/README.rst>`_. It reveals all the dirt on how to join The GoOSe Project and how to make your first contribution (hint: it's dead simple to get started).
+
+Thanks
+------
+
+Thanks to everyone who contributed towards making GoOSe 6.0, a list of contributors can be found at https://github.com/gooseproject/main/blob/master/CONTRIB.rst.
+
+A special shout out to all who have contributed hardware, network connectivity, hosting and resources for this release. We at the GoOSe Project could not have created the distribution without you.
+
+Cheers!
+
 
 
 

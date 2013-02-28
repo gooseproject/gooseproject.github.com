@@ -20,6 +20,12 @@ A direct download is currently available from our mirrors. A list of mirrors are
 
 Most mirrors will allow direct DVD downloads over http.  Torrent, FTP and rsync options are in the works.
 
+Source RPMS
+~~~~~~~~~~~
+
+Source RPMS are also available on our mirrors. See http://gooseproject.org/downloads.html for a list of mirrors to download.
+
+
 
 
 

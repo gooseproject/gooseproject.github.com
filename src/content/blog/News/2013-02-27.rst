@@ -1,0 +1,26 @@
+GoOSe Linux 6.0 Now Available
+#############################
+
+:date: 2013-02-27
+:author: Clint Savage (herlo)
+
+The GoOSe Project is pleased to announce the availability of GoOSe Linux 6.0 for i386 and x86_64 Architectures.
+
+GoOSe-6.0 is based on the upstream's 6.0 Enterprise Release with limited changes where required.
+
+Moving from EL-4 or EL-5
+------------------------
+
+Since this is the first GoOSe Linux release, it is recommended to reinstall rather than attempting any sort of upgrade process.
+
+Downloading GoOSe Linux 6.0
+---------------------------
+
+A direct download is currently available from our mirrors. A list of mirrors are available at http://gooseproject.org/downloads.html.
+
+Most mirrors will allow direct DVD downloads over http.  Torrent, FTP and rsync options are in the works.
+
+
+
+
+
